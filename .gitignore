@@ -1,3 +1,6 @@
+.idea
+.vscode
+
 context.go
 *.log
 coverage.out
