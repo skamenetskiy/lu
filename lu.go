@@ -1,8 +1,6 @@
 package lu
 
 import (
-	"fmt"
-
 	"github.com/valyala/fasthttp"
 )
 
@@ -253,14 +251,4 @@ func handle(err error, ctx *fasthttp.RequestCtx, m midware, n func(error)) {
 
 	m.middleWare(ctx, n)
 	return
-}
-
-func init() {
-	version := "0.0.1"
-	fmt.Printf(`  	  ___              
-	 |  /      ..    )))   
-	 | |     .    . (((
-	 | |    .    ||~~~~||
-	 | |___ .    | \__/ |   
-	 \_____/      \____/    ` + "version: " + version + "\n\n")
 }

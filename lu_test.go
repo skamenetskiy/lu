@@ -2,14 +2,11 @@ package lu
 
 import (
 	"bytes"
-	"net"
-	"testing"
-
-	"fmt"
-
-	"strings"
-
 	"errors"
+	"fmt"
+	"net"
+	"strings"
+	"testing"
 
 	"github.com/valyala/fasthttp"
 )
